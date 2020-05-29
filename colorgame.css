@@ -1,0 +1,77 @@
+.square{
+	width: 30%;
+	background: pink;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+body{
+	background-color: #232323;
+	font-family: "Calibri";
+	margin:0;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 450px;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#stripe{
+	background: white;
+	height 30px;
+	text-align: center;
+	color: black;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+	/*height: 25px;*/
+	text-transform: uppercase;
+	color: #232323;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+}
+
+.selected{
+	background: #232323;
+	color: white;
+}
+
+#colorDisplay{
+	font-size: 160%;
+	text-transform:uppercase;
+}
+
+button{
+	background: none;
+	border: none;
+	height: 25px;
+	text-transform: uppercase;
+	color: #232323;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+	/*box-sizing: none;*/
+}
+
+button:hover{
+	color: white;
+	background: #232323;
+}
